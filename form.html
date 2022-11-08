@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h2>Sign Up</h2>
+  <form action="mailto:info.rswebpage@gmail.com" method="post" enctype="text/plain">
+    <div>
+      <label for="">Tittle</label>
+      <label for="Mr.">Mr.</label>
+      <input type="radio" name="Tittle" id="Mr." required>
+
+      <label for="Ms.">Ms.</label>
+      <input type="radio" name="Tittle" id="Ms." required>
+
+      <label for="Mrs.">Mrs.</label>
+      <input type="radio" name="Tittle" id="Mrs." required>
+    </div>
+    <br>
+    <div>
+      <label for="fname">First Name:</label>
+      <input type="text" name="firstname" id="fname" placeholder="Your First Name" required>
+    </div>
+    <br>
+    <div>
+      <label for="lname">Last Name:</label>
+      <input type="text" name="lastname" id="lname" placeholder="Your Last Name" required>
+    </div>
+    <br>
+    <div class="">
+      <label for="birthday">Birthday:</label>
+      <input type="date" name="birthday" value="" id="birthday" required>
+    </div>
+    <br>
+    <div class="">
+      <label for="pass">Password:</label>
+      <input type="password" name="password" value="" id="pass" maxlength="8" placeholder="Your Password" required>
+    </div>
+    <br>
+    <div>
+      <label for="e-mail">Email:</label>
+      <input type="email" name="e-mail" id="e-mail" placeholder="example87@gmail.com" required>
+    </div>
+    <br>
+    <div class="">
+      <label for="telNumber">Tel.</label>
+      <input type="tel" name="Tel." value="" placeholder="Your Phone Number" required id="telNumber">
+    </div>
+    <br>
+    <div>
+      <label for="homeaddress">Home Address:</label>
+      <input type="text" name="homeaddress" id="homeaddress" placeholder="Your Home Address" required>
+
+    </div>
+    <br>
+    <div>
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="">Philippines</option>
+        <option value="">Italy</option>
+        <option value="">America</option>
+      </select>
+    </div>
+    <br>
+    <div class="">
+      <label for="payment">Payment Method:</label>
+      <select class="" name="payment method" id="payment">
+        <option value="">Visa</option>
+        <option value="">PayMaya</option>
+        <option value="">PayPal</option>
+        <option value="">American Express</option>
+      </select>
+    </div>
+    <br>
+    <div class="">
+      <label for="quanto">Quantity:</label>
+      <input type="number" name="quanto" value="1" id="quanto" required min="0" max="100">
+    </div>
+    <br>
+    <div class="">
+      <label for="yourmsg">Comments & Suggestions:</label>
+      <br>
+      <textarea name="comments" rows="8" cols="80" placeholder="Your Comments and suggestions Here" id="yourmsg"></textarea>
+    </div>
+    <br>
+    <div class="">
+      <label for="box">I have red and agree to the terms and conditions</label>
+      <input type="checkbox" name="Terms & Conditions" required id="box">
+    </div>
+    <br>
+    <div>
+      <input type="submit">
+    </div>
+    <br>
+    <div>
+      <input type="reset">
+    </div>
+  </form>
+  <hr>
+  <h3><a href="index.html">Home</a></h3>
+</body>
+
+</html>
